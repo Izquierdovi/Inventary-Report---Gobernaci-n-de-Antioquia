@@ -1,4 +1,5 @@
 # Generador de Informe Fotográfico de Inventario para ESE de Antioquia
+<img src="assets/header.png" width="700" alt="header del proyecto">
 
 ## Descripción
 
@@ -27,6 +28,11 @@ El programa:
 - Exporta un único documento final llamado `inventario.pdf`.
 
 De acuerdo con el código, el sistema trabaja con una carpeta de imágenes (`images`), una carpeta de encabezados (`encabezados`) y genera un PDF final con tamaño de página A4. Además, recorre automáticamente todas las imágenes en formato `.jpg`, `.jpeg` y `.png`, organizándolas alfabéticamente para incorporarlas una por una al documento final. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+
+
+## Ejemplo final
+A continuación se muestra un ejemplo de como queda nombrada cada hoja del archivo pdf que permite tener control sobre el invetario de los equipos médicos de una ESE en particular.
+<img src="assets/pdf_style.jpg" alt="imagen de muestra">
 
 ## Estructura del proyecto
 
